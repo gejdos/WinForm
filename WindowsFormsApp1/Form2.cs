@@ -35,6 +35,7 @@ namespace WindowsFormsApp1
 
             try
             {
+
                 conn.Open();
                 conn.Close();
                 MessageBox.Show("Connected!");
